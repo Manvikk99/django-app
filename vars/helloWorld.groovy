@@ -1,3 +1,3 @@
 def call() {
-  sh "echo Hello MY Libraries are working as expected."
+  sh "echo Hello ${config.name}. Your surname is ${config.surname}."
 }
